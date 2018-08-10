@@ -1,0 +1,48 @@
+table {
+	margin: 0 auto;
+}
+
+table caption, .T2 caprion, .T3 caption {
+	font-size: 32px;
+	font-style: italic;
+	font-weight: bold;
+	padding: 20px;
+}
+
+td {
+	text-align: center;
+}
+
+.T2, .T3, .T4 {
+	border: 1px solid #E43552;
+	border-collapse: collapse;
+}
+
+.T2 td, .T2 th, .T4 td, .T4 tr {
+	border: 1px solid #E43552;
+	padding: 20px
+}
+
+.T2 tr:nth-child(2n+1){
+	background: #220BFB;
+}
+
+.T2 tr:nth-child(2n){
+	background: #CCC;
+}
+
+.T3 td, .T2 th{
+	border: 2px solid #F1401D;
+	padding: 20px;
+}
+.T3 tr:first-child, .T3 td:first-child{
+	background: #0FF72A;
+}
+
+.T3 tr:last-child {
+	background: #EFEDED;
+}
+
+.T4 tr:hover {
+	background: green;
+}
